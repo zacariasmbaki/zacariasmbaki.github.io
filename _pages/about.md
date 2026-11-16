@@ -30,16 +30,16 @@ redirect_from:
 </style>
 
 <p class="about-intro">
-Je suis [ton statut : doctorant / chercheur / étudiant en master] en [ta discipline] à l'Université de Sherbrooke (Québec, Canada) et à l'ENTPE (Vaulx-en-Velin, France). Mes recherches portent sur [ton sujet principal]. [1 ou 2 phrases sur tes méthodes, ton terrain ou tes objectifs.]
+I am a PhD candidate in Civil Engineering at Université de Sherbrooke (Québec, Canada), in joint supervision with ENTPE (Vaulx-en-Velin, France). My research focuses on numerical fluid-structure interaction, nonlinear structural dynamics and vibration control, with applications to overhead powerline structures. I hold a MEng in Mechanical Engineering from INSA Lyon and combine numerical modelling with experimental structural dynamics and wind tunnel testing.
 </p>
 
 <div class="home-actions">
-  <a href="/files/cv.pdf" class="home-btn home-btn--green"><i class="fas fa-download"></i> Télécharger mon CV (PDF)</a>
-  <a href="/publications/" class="home-btn home-btn--blue"><i class="fas fa-book"></i> Voir mes publications</a>
+  <a href="/files/cv.pdf" class="home-btn home-btn--green"><i class="fas fa-download"></i> Download CV (PDF)</a>
+  <a href="/publications/" class="home-btn home-btn--blue"><i class="fas fa-book"></i> View Publications</a>
 </div>
 
 <div class="resume-sections">
- <div class="resume-column">
+  <div class="resume-column">
     <h2>Education</h2>
     <article class="resume-item">
       <div class="resume-item__header">
@@ -66,45 +66,61 @@ Je suis [ton statut : doctorant / chercheur / étudiant en master] en [ta discip
       <p class="resume-item__role">MEng in Mechanical Engineering — Product Design and Innovation</p>
     </article>
   </div>
+
   <div class="resume-column">
-    <h2>Expérience</h2>
-    <article class="resume-item">
-      <div class="resume-item__header">
-        <div class="resume-item__logo"><i class="fas fa-briefcase"></i></div>
-        <h3 class="resume-item__org">[Organisation / laboratoire]</h3>
-        <div class="resume-item__date">[Date – Présent]</div>
-      </div>
-      <p class="resume-item__role">[Poste ou mission]</p>
-    </article>
+    <h2>Experience</h2>
     <article class="resume-item">
       <div class="resume-item__header">
         <div class="resume-item__logo"><i class="fas fa-flask"></i></div>
-        <h3 class="resume-item__org">[Organisation / laboratoire]</h3>
-        <div class="resume-item__date">[Date – Date]</div>
+        <h3 class="resume-item__org">ETIC INSA Technologies, Lyon, France</h3>
+        <div class="resume-item__date">Aug 2023 – Jul 2024</div>
       </div>
-      <p class="resume-item__role">[Poste ou mission]</p>
+      <p class="resume-item__role">Consulting Engineer, Fluid-Structure Interaction</p>
+      <p class="resume-item__role"><em>Activities:</em> CFD Modelling, Experimental Characterization of Composite Materials, Finite Element Modelling</p>
+    </article>
+    <article class="resume-item">
+      <div class="resume-item__header">
+        <div class="resume-item__logo"><i class="fas fa-cogs"></i></div>
+        <h3 class="resume-item__org">Institute for Mechatronic Systems (IMS), Darmstadt, Germany</h3>
+        <div class="resume-item__date">Jul 2023 – Oct 2023</div>
+      </div>
+      <p class="resume-item__role">Research Intern, Vehicle Dynamics Team</p>
+      <p class="resume-item__role"><em>Activities:</em> Product Design, Reverse Engineering, Numerical Modelling</p>
+    </article>
+    <article class="resume-item">
+      <div class="resume-item__header">
+        <div class="resume-item__logo"><i class="fas fa-briefcase"></i></div>
+        <h3 class="resume-item__org">EFI Automotive, Saint-Maurice-de-Beynost, France</h3>
+        <div class="resume-item__date">2021 – 2024</div>
+      </div>
+      <p class="resume-item__role">R&amp;D Mechanical Design Engineer (Apprenticeship), Advanced Research Team</p>
+      <p class="resume-item__role"><em>Activities:</em> Product Design, Benchmarking, Reverse Engineering, System Modelling, Prototyping and Testing</p>
     </article>
   </div>
 </div>
 
 <div class="skills-section">
-  <h2>Compétences</h2>
+  <h2>Skills</h2>
   <div class="skills-grid">
     <div class="skills-item">
-      <h3>[Domaine 1]</h3>
-      <p>[Compétences, séparées par des virgules]</p>
+      <h3>Mechanical Design &amp; Manufacturing</h3>
+      <p>CAD (SolidWorks, CATIA V5, Creo, 3DEXPERIENCE), GD&amp;T (CETOL, 3DCS), CAM (TopSolid, Esprit), PLM</p>
     </div>
     <div class="skills-item">
-      <h3>Programmation</h3>
-      <p>[Python, MATLAB, ...]</p>
+      <h3>Structural Modelling &amp; Simulation</h3>
+      <p>Linear and Nonlinear Finite Element Modelling (Abaqus, Code_Aster), CFD (Ansys Fluent, STAR-CCM+), Gmsh, MSC Adams, Simulink</p>
     </div>
     <div class="skills-item">
-      <h3>Outils</h3>
-      <p>[Logiciels, plateformes, ...]</p>
+      <h3>Experimental Skills</h3>
+      <p>Experimental Structural Dynamics, Experimental Acoustics, Wind Tunnel Testing</p>
     </div>
     <div class="skills-item">
-      <h3>Recherche et diffusion</h3>
-      <p>[Articles, conférences, posters, ...]</p>
+      <h3>Programming</h3>
+      <p>Python, MATLAB, VBA</p>
+    </div>
+    <div class="skills-item">
+      <h3>Communication</h3>
+      <p>Scientific Outreach, Poster Presentations, Scientific Presentations</p>
     </div>
   </div>
 </div>
