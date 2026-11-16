@@ -34,7 +34,7 @@ I am a Joint PhD candidate at Université de Sherbrooke (Québec, Canada), in Ci
 </p>
 
 <div class="home-actions">
-  <a href="/files/CV_Zacarias_Mbaki.pdf" download="CV_Zacarias.pdf" class="home-btn home-btn--green"><i class="fas fa-download"></i> Download CV (PDF)</a>
+  <a href="/files/CV_Zacarias.pdf" download="CV_Zacarias.pdf" class="home-btn home-btn--green"><i class="fas fa-download"></i> Download CV (PDF)</a>
   <a href="/publications/" class="home-btn home-btn--blue"><i class="fas fa-book"></i> View Publications</a>
 </div>
 
