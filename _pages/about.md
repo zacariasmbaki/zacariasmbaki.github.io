@@ -39,23 +39,31 @@ Je suis [ton statut : doctorant / chercheur / étudiant en master] en [ta discip
 </div>
 
 <div class="resume-sections">
-  <div class="resume-column">
-    <h2>Formation</h2>
+ <div class="resume-column">
+    <h2>Education</h2>
     <article class="resume-item">
       <div class="resume-item__header">
         <div class="resume-item__logo"><i class="fas fa-graduation-cap"></i></div>
-        <h3 class="resume-item__org">Université de Sherbrooke</h3>
-        <div class="resume-item__date">[20XX–20XX]</div>
+        <h3 class="resume-item__org">Université de Sherbrooke, Canada</h3>
+        <div class="resume-item__date">2024 – Present</div>
       </div>
-      <p class="resume-item__role">[Diplôme, ex. Doctorat en génie civil]</p>
+      <p class="resume-item__role">PhD in Civil Engineering — Numerical Fluid-Structure Interaction and Overhead Powerline Structures</p>
     </article>
     <article class="resume-item">
       <div class="resume-item__header">
         <div class="resume-item__logo"><i class="fas fa-graduation-cap"></i></div>
-        <h3 class="resume-item__org">ENTPE</h3>
-        <div class="resume-item__date">[20XX–20XX]</div>
+        <h3 class="resume-item__org">ENTPE, France</h3>
+        <div class="resume-item__date">2024 – Present</div>
       </div>
-      <p class="resume-item__role">[Diplôme]</p>
+      <p class="resume-item__role">Joint PhD supervision (cotutelle) — Nonlinear Structural Dynamics and Vibration Control</p>
+    </article>
+    <article class="resume-item">
+      <div class="resume-item__header">
+        <div class="resume-item__logo"><i class="fas fa-graduation-cap"></i></div>
+        <h3 class="resume-item__org">INSA Lyon, France</h3>
+        <div class="resume-item__date">2021 – 2024</div>
+      </div>
+      <p class="resume-item__role">MEng in Mechanical Engineering — Product Design and Innovation</p>
     </article>
   </div>
   <div class="resume-column">
