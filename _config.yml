@@ -13,10 +13,10 @@ title                    : "Home Page"
 title_separator          : "-"
 name                     : &name "Zacarias Lourenço Mbaki"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://zacariasmbaki.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "zacariasmbaki/zacariasmbaki.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -36,7 +36,7 @@ author:
   googlescholar    : "https://scholar.google.ca/citations?user=eCLbqwYAAAAJ&hl=en"
   orcid            : "https://orcid.org/0009-0001-4869-6962"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Zacarias-Mbaki?ev=hdr_xprf"
  
 
   # Repositories and software development
