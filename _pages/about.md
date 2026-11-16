@@ -47,7 +47,7 @@ I am a PhD candidate in Civil Engineering at Université de Sherbrooke (Québec,
         <h3 class="resume-item__org">Université de Sherbrooke, Canada</h3>
         <div class="resume-item__date">2024 – Present</div>
       </div>
-      <p class="resume-item__role">PhD in Civil Engineering — Numerical Fluid-Structure Interaction and Overhead Powerline Structures</p>
+      <p class="resume-item__role">Joint PhD in Civil Engineering — Numerical Fluid-Structure Interaction and Overhead Powerline Structures</p>
     </article>
     <article class="resume-item">
       <div class="resume-item__header">
@@ -55,7 +55,7 @@ I am a PhD candidate in Civil Engineering at Université de Sherbrooke (Québec,
         <h3 class="resume-item__org">ENTPE, France</h3>
         <div class="resume-item__date">2024 – Present</div>
       </div>
-      <p class="resume-item__role">Joint PhD supervision (cotutelle) — Nonlinear Structural Dynamics and Vibration Control</p>
+      <p class="resume-item__role">Joint PhD in Mechanical Engineering — Nonlinear Structural Dynamics and Vibration Control</p>
     </article>
     <article class="resume-item">
       <div class="resume-item__header">
