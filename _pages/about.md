@@ -18,8 +18,8 @@ redirect_from:
 @media (max-width: 800px) { .resume-sections { grid-template-columns: 1fr; } }
 .resume-item { border: 1px solid rgba(128,128,128,0.35); border-radius: 8px; padding: 0.8em 1em; margin-bottom: 0.9em; }
 .resume-item__header { display: flex; align-items: center; gap: 0.8em; }
-.resume-item__logo { width: 40px; height: 40px; flex: 0 0 40px; display: flex; align-items: center; justify-content: center; font-size: 1.5em; opacity: 0.8; }
-.resume-item__logo img { max-width: 100%; max-height: 100%; }
+.resume-item__logo { width: 80px; height: 56px; flex: 0 0 80px; display: flex; align-items: center; justify-content: center; font-size: 1.5em; }
+.resume-item__logo img { max-width: 100%; max-height: 100%; object-fit: contain; background: #fff; border-radius: 4px; padding: 2px; }
 .resume-item__org { margin: 0; font-size: 1em; flex: 1; }
 .resume-item__date { font-size: 0.85em; opacity: 0.75; white-space: nowrap; }
 .resume-item__role { margin: 0.5em 0 0 0; font-size: 0.95em; }
@@ -30,7 +30,7 @@ redirect_from:
 </style>
 
 <p class="about-intro">
-I am a PhD candidate in Civil Engineering at Université de Sherbrooke (Québec, Canada), in joint supervision with ENTPE (Vaulx-en-Velin, France). My research focuses on numerical fluid-structure interaction, nonlinear structural dynamics and vibration control, with applications to overhead powerline structures. I hold a MEng in Mechanical Engineering from INSA Lyon and combine numerical modelling with experimental structural dynamics and wind tunnel testing.
+I am a Joint PhD candidate at Université de Sherbrooke (Québec, Canada), in Civil Engineering, and ENTPE (Vaulx-en-Velin, France), in Mechanical Engineering. My research focuses on numerical fluid-structure interaction, nonlinear structural dynamics and vibration control, with applications to overhead powerline structures. I hold a MEng in Mechanical Engineering from INSA Lyon and combine numerical modelling with experimental structural dynamics and wind tunnel testing.
 </p>
 
 <div class="home-actions">
@@ -51,7 +51,7 @@ I am a PhD candidate in Civil Engineering at Université de Sherbrooke (Québec,
     </article>
     <article class="resume-item">
       <div class="resume-item__header">
-        <div class="resume-item__logo"><i class="fas fa-graduation-cap"></i></div>
+        <div class="resume-item__logo"><img src="/images/ENTPE.jpg" alt="ENTPE logo"></div>
         <h3 class="resume-item__org">ENTPE, France</h3>
         <div class="resume-item__date">2024 – Present</div>
       </div>
@@ -59,7 +59,7 @@ I am a PhD candidate in Civil Engineering at Université de Sherbrooke (Québec,
     </article>
     <article class="resume-item">
       <div class="resume-item__header">
-        <div class="resume-item__logo"><i class="fas fa-graduation-cap"></i></div>
+        <div class="resume-item__logo"><img src="/images/INSA.jpg" alt="INSA logo"></div>
         <h3 class="resume-item__org">INSA Lyon, France</h3>
         <div class="resume-item__date">2021 – 2024</div>
       </div>
@@ -71,7 +71,7 @@ I am a PhD candidate in Civil Engineering at Université de Sherbrooke (Québec,
     <h2>Experience</h2>
     <article class="resume-item">
       <div class="resume-item__header">
-        <div class="resume-item__logo"><i class="fas fa-flask"></i></div>
+        <div class="resume-item__logo"><img src="/images/ETIC.png" alt="ETIC logo"></div>
         <h3 class="resume-item__org">ETIC INSA Technologies, Lyon, France</h3>
         <div class="resume-item__date">Aug 2023 – Jul 2024</div>
       </div>
@@ -80,7 +80,7 @@ I am a PhD candidate in Civil Engineering at Université de Sherbrooke (Québec,
     </article>
     <article class="resume-item">
       <div class="resume-item__header">
-        <div class="resume-item__logo"><i class="fas fa-cogs"></i></div>
+        <div class="resume-item__logo"><img src="/images/IMS.jpg" alt="IMS logo"></div>
         <h3 class="resume-item__org">Institute for Mechatronic Systems (IMS), Darmstadt, Germany</h3>
         <div class="resume-item__date">Jul 2023 – Oct 2023</div>
       </div>
@@ -89,7 +89,7 @@ I am a PhD candidate in Civil Engineering at Université de Sherbrooke (Québec,
     </article>
     <article class="resume-item">
       <div class="resume-item__header">
-        <div class="resume-item__logo"><i class="fas fa-briefcase"></i></div>
+        <div class="resume-item__logo"><img src="/images/EFI.png" alt="EFI logo"></div>
         <h3 class="resume-item__org">EFI Automotive, Saint-Maurice-de-Beynost, France</h3>
         <div class="resume-item__date">2021 – 2024</div>
       </div>
