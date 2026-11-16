@@ -26,16 +26,15 @@ author:
   avatar           : "profile.png"
   name             : "Zacarias Lourenço Mbaki"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Canada/France"
-  employer         : "Université de Sherbrooke (Quebec, Canada)/ ENTPE (Vaulx-En-Velin, France)"
+  bio              : "PhD Candidate in Nonlinear Structural Dynamics, Vibration Control and Fluid-Structure Interaction"
+  location         : # URL
+  employer         : # URL
   uri              : # URL
   email            : "zacarias.mbaki@entpe.fr" 
 
   # Academic websites
   googlescholar    : "https://scholar.google.ca/citations?user=eCLbqwYAAAAJ&hl=en"
   orcid            : "https://orcid.org/0009-0001-4869-6962"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Zacarias-Mbaki?ev=hdr_xprf"
  
 
@@ -58,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : https://www.linkedin.com/in/zacarias-louren%C3%A7o-mbaki/
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
