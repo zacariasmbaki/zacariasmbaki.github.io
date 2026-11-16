@@ -43,7 +43,7 @@ I am a PhD candidate in Civil Engineering at Université de Sherbrooke (Québec,
     <h2>Education</h2>
     <article class="resume-item">
       <div class="resume-item__header">
-        <div class="resume-item__logo"><i class="fas fa-graduation-cap"></i></div>
+        <div class="resume-item__logo"><img src="/images/UDES.png" alt="Université de Sherbrooke logo"></div>
         <h3 class="resume-item__org">Université de Sherbrooke, Canada</h3>
         <div class="resume-item__date">2024 – Present</div>
       </div>
