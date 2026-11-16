@@ -1,56 +1,102 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<style>
+.about-intro { font-size: 1.05em; line-height: 1.7; margin-bottom: 1.5em; }
+.home-actions { display: flex; flex-wrap: wrap; gap: 0.8em; margin: 1.5em 0 2em; }
+.home-btn { display: inline-block; padding: 0.6em 1.2em; border-radius: 6px; color: #fff !important; text-decoration: none !important; font-weight: 600; }
+.home-btn--green { background: #2e8b57; }
+.home-btn--blue { background: #2f6fb3; }
+.home-btn:hover { opacity: 0.85; }
+.resume-sections { display: grid; grid-template-columns: 1fr 1fr; gap: 2em; margin-bottom: 2em; }
+@media (max-width: 800px) { .resume-sections { grid-template-columns: 1fr; } }
+.resume-item { border: 1px solid rgba(128,128,128,0.35); border-radius: 8px; padding: 0.8em 1em; margin-bottom: 0.9em; }
+.resume-item__header { display: flex; align-items: center; gap: 0.8em; }
+.resume-item__logo { width: 40px; height: 40px; flex: 0 0 40px; display: flex; align-items: center; justify-content: center; font-size: 1.5em; opacity: 0.8; }
+.resume-item__logo img { max-width: 100%; max-height: 100%; }
+.resume-item__org { margin: 0; font-size: 1em; flex: 1; }
+.resume-item__date { font-size: 0.85em; opacity: 0.75; white-space: nowrap; }
+.resume-item__role { margin: 0.5em 0 0 0; font-size: 0.95em; }
+.skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1em; }
+.skills-item { border: 1px solid rgba(128,128,128,0.35); border-radius: 8px; padding: 0.8em 1em; }
+.skills-item h3 { margin: 0 0 0.4em 0; font-size: 1em; }
+.skills-item p { margin: 0; font-size: 0.92em; }
+</style>
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<p class="about-intro">
+Je suis [ton statut : doctorant / chercheur / étudiant en master] en [ta discipline] à l'Université de Sherbrooke (Québec, Canada) et à l'ENTPE (Vaulx-en-Velin, France). Mes recherches portent sur [ton sujet principal]. [1 ou 2 phrases sur tes méthodes, ton terrain ou tes objectifs.]
+</p>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<div class="home-actions">
+  <a href="/files/cv.pdf" class="home-btn home-btn--green"><i class="fas fa-download"></i> Télécharger mon CV (PDF)</a>
+  <a href="/publications/" class="home-btn home-btn--blue"><i class="fas fa-book"></i> Voir mes publications</a>
+</div>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<div class="resume-sections">
+  <div class="resume-column">
+    <h2>Formation</h2>
+    <article class="resume-item">
+      <div class="resume-item__header">
+        <div class="resume-item__logo"><i class="fas fa-graduation-cap"></i></div>
+        <h3 class="resume-item__org">Université de Sherbrooke</h3>
+        <div class="resume-item__date">[20XX–20XX]</div>
+      </div>
+      <p class="resume-item__role">[Diplôme, ex. Doctorat en génie civil]</p>
+    </article>
+    <article class="resume-item">
+      <div class="resume-item__header">
+        <div class="resume-item__logo"><i class="fas fa-graduation-cap"></i></div>
+        <h3 class="resume-item__org">ENTPE</h3>
+        <div class="resume-item__date">[20XX–20XX]</div>
+      </div>
+      <p class="resume-item__role">[Diplôme]</p>
+    </article>
+  </div>
+  <div class="resume-column">
+    <h2>Expérience</h2>
+    <article class="resume-item">
+      <div class="resume-item__header">
+        <div class="resume-item__logo"><i class="fas fa-briefcase"></i></div>
+        <h3 class="resume-item__org">[Organisation / laboratoire]</h3>
+        <div class="resume-item__date">[Date – Présent]</div>
+      </div>
+      <p class="resume-item__role">[Poste ou mission]</p>
+    </article>
+    <article class="resume-item">
+      <div class="resume-item__header">
+        <div class="resume-item__logo"><i class="fas fa-flask"></i></div>
+        <h3 class="resume-item__org">[Organisation / laboratoire]</h3>
+        <div class="resume-item__date">[Date – Date]</div>
+      </div>
+      <p class="resume-item__role">[Poste ou mission]</p>
+    </article>
+  </div>
+</div>
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<div class="skills-section">
+  <h2>Compétences</h2>
+  <div class="skills-grid">
+    <div class="skills-item">
+      <h3>[Domaine 1]</h3>
+      <p>[Compétences, séparées par des virgules]</p>
+    </div>
+    <div class="skills-item">
+      <h3>Programmation</h3>
+      <p>[Python, MATLAB, ...]</p>
+    </div>
+    <div class="skills-item">
+      <h3>Outils</h3>
+      <p>[Logiciels, plateformes, ...]</p>
+    </div>
+    <div class="skills-item">
+      <h3>Recherche et diffusion</h3>
+      <p>[Articles, conférences, posters, ...]</p>
+    </div>
+  </div>
+</div>
