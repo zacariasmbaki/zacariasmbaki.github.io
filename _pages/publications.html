@@ -1,3 +1,4 @@
+
 ---
 layout: archive
 title: "Publications"
@@ -6,13 +7,48 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">
+    You can also find my articles on
+    <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+  </div>
 {% endif %}
 
 {% include base_path %}
 
+<style>
+  .page__title {
+    display: none;
+  }
+
+  .archive {
+    font-size: 0.85em;
+    line-height: 1.4;
+  }
+
+  .archive h2 {
+    font-size: 1.25em;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+  }
+
+  .archive h3 {
+    font-size: 0.9em;
+  }
+
+  .archive p {
+    font-size: 0.85em;
+    line-height: 1.4;
+  }
+
+  .archive li {
+    font-size: 0.95em;
+    line-height: 1.4;
+    margin-bottom: 12px;
+  }
+</style>
+
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
