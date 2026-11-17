@@ -24,7 +24,7 @@ repository               : "zacariasmbaki/zacariasmbaki.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Zacarias Lourenço Mbaki"
+  name             : "Zacarias Mbaki"
   pronouns         : # example: "she/her"  
   bio              : "PhD Candidate in Nonlinear Structural Dynamics, Vibration Control and Fluid-Structure Interaction"
   location         : # URL
@@ -41,7 +41,7 @@ author:
  
 
   # Social media
-  linkedin         :"zacarias-lourenço-mbaki"
+  linkedin         :"zacarias-louren%C3%A7o-mbaki"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
