@@ -16,15 +16,14 @@ author_profile: true
 <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">my Google Scholar profile</a>.</div>
 {% endif %}
 
-<p><small>Publications détectées : {{ site.publications.size }}</small></p>
-
 <ul class="pub-list">
-{% for pub in site.publications %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% for pub in pubs %}
   <li class="pub-item">
     <span class="pub-title"><a href="{{ pub.paperurl }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a></span><br>
     <span class="pub-venue">{{ pub.venue }}</span><br>
     {{ pub.authors }}<br>
-    <small>[category : {{ pub.category }}]</small>
+    <a href="{{ pub.paperurl }}" target="_blank" rel="noopener noreferrer">{{ pub.paperurl | remove: "https://" }}</a>
   </li>
 {% endfor %}
 </ul>
