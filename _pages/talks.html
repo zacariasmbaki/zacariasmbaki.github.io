@@ -1,16 +1,25 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<style>
+.pub-list { list-style: disc; margin: 0 0 1.5em 1.2em; padding: 0; }
+.pub-item { margin-bottom: 0.6em; font-size: 0.92em; line-height: 1.35; }
+.pub-title { font-weight: 700; }
+.pub-venue { font-style: italic; }
+</style>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+<ul class="pub-list">
+{% assign talks = site.talks | sort: "date" | reverse %}
+{% for t in talks %}
+  <li class="pub-item">
+    <span class="pub-title">{% if t.eventurl %}<a href="{{ t.eventurl }}" target="_blank" rel="noopener noreferrer">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</span><br>
+    <span class="pub-venue">{{ t.venue }}, {{ t.location }}, {{ t.dates }}</span><br>
+    {% if t.authors %}{{ t.authors }}<br>{% endif %}
+    {% if t.eventurl %}<a href="{{ t.eventurl }}" target="_blank" rel="noopener noreferrer">{{ t.eventurl | remove: "https://" }}</a>{% endif %}
+  </li>
 {% endfor %}
+</ul>
