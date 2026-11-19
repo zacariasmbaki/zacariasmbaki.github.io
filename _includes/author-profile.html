@@ -174,3 +174,10 @@
     </ul>
   </div>
 </div>
+<script>
+document.querySelectorAll('.author__urls a').forEach(function (a) {
+  if (a.href.indexOf('mailto:') === 0) return;
+  a.target = '_blank';
+  a.rel = 'noopener noreferrer';
+});
+</script>
