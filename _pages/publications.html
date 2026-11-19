@@ -5,28 +5,31 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+.pub-list { list-style: disc; margin: 0 0 1.5em 1.2em; padding: 0; }
+.pub-item { margin-bottom: 0.9em; font-size: 0.92em; line-height: 1.45; }
+.pub-title { font-weight: 700; }
+.pub-venue { font-style: italic; }
+.pub-category { font-size: 1.1em; margin: 1.2em 0 0.6em; }
+</style>
+
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+<div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
-
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+{% for category in site.publication_category %}
+  {% assign items = site.publications | where: "category", category[0] | sort: "date" | reverse %}
+  {% if items.size > 0 %}
+<h2 class="pub-category">{{ category[1].title }}</h2>
+<ul class="pub-list">
+    {% for pub in items %}
+  <li class="pub-item">
+    <span class="pub-title"><a href="{{ pub.paperurl }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a></span><br>
+    <span class="pub-venue">{{ pub.venue }}</span><br>
+    {{ pub.authors }}<br>
+    <a href="{{ pub.paperurl }}" target="_blank" rel="noopener noreferrer">{{ pub.paperurl | remove: "https://" }}</a>
+  </li>
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+</ul>
+  {% endif %}
+{% endfor %}
