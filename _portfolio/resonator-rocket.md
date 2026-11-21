@@ -3,7 +3,7 @@ title: "Effect of Turbulent Flow on the Structural Vibrations of an Experimental
 excerpt: "Experimental and numerical study of turbulent-flow-induced vibrations to protect the onboard electronics of experimental rockets."
 collection: portfolio
 category: academic
-date: 2024
+year: 2024
 image: resonator.png
 badges:
   - { label: "Slides", url: "/files/SIFS.pdf", color: green }
