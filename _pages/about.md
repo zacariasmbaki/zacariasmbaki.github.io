@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <style>
-.about-intro { font-size: 1.05em; line-height: 1.7; margin-bottom: 1.5em; }
+.about-intro { font-size: 1.05em; line-height: 1.7; margin-bottom: 1.5em; text-align: justify; hyphens: auto; }
 .home-actions { display: flex; flex-wrap: wrap; gap: 0.8em; margin: 1.5em 0 2em; }
 .home-btn { display: inline-block; padding: 0.6em 1.2em; border-radius: 6px; color: #fff !important; text-decoration: none !important; font-weight: 600; }
 .home-btn--green { background: #2e8b57; }
