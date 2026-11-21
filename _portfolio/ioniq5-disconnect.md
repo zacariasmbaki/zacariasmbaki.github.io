@@ -6,7 +6,7 @@ category: industry
 year: 2023
 image: Ioniq.jpg
 badges:
-  - { label: "Report", url: "/files/ioniq5-report.pdf", color: green }
+  - { label: "Report", url: "/files/Technical_Repport.pdf", color: green }
 objectives:
   - Integrate the mechanical actuator module (IONIQ 5 Disconnect) on a test bench developed at the University of Darmstadt
   - Run simulations of the Disconnect function
