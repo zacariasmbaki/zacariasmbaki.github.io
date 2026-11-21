@@ -1,0 +1,53 @@
+---
+layout: default
+---
+{% include base_path %}
+
+<style>
+  .pf-info { margin-top: 1.5em; }
+  .pf-info span {
+    display: inline-block;
+    padding: .25em .8em;
+    margin: 0 .4em .4em 0;
+    border-radius: 4px;
+    font-size: .8em;
+    font-weight: 700;
+    color: #fff;
+    background: #3fb23f;
+  }
+  .pf-hero { width: 100%; border: 1px solid #aaa; display: block; margin-bottom: 1em; }
+</style>
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page">
+    <div class="page__inner-wrap">
+      <header>
+        <h1 class="page__title">{{ page.title }}</h1>
+      </header>
+
+      <section class="page__content">
+
+        {% if page.image %}
+          {% if page.image contains '/' %}
+            {% assign hero = page.image | relative_url %}
+          {% else %}
+            {% capture hero_path %}/images/{{ page.image }}{% endcapture %}
+            {% assign hero = hero_path | relative_url %}
+          {% endif %}
+          <img class="pf-hero" src="{{ hero }}" alt="{{ page.title }}">
+        {% endif %}
+
+        {{ content }}
+
+        <div class="pf-info">
+          {% if page.project_type %}<span>{{ page.project_type }}</span>{% endif %}
+          {% if page.year %}<span>{{ page.year }}</span>{% endif %}
+          {% if page.role %}<span>Role: {{ page.role | join: ", " }}</span>{% endif %}
+        </div>
+
+      </section>
+    </div>
+  </article>
+</div>
