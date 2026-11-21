@@ -2,6 +2,8 @@
 title: "Effect of Turbulent Flow on the Structural Vibrations of an Experimental Mini Rocket (RESONATOR Project)"
 excerpt: "Experimental and numerical study of turbulent-flow-induced vibrations to protect the onboard electronics of experimental rockets."
 collection: portfolio
+layout: project
+project_type: "Academic Project"
 category: academic
 year: 2024
 image: resonator.png
