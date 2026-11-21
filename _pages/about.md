@@ -30,7 +30,7 @@ redirect_from:
 </style>
 
 <p class="about-intro">
-I am a Joint PhD candidate at Université de Sherbrooke (Québec, Canada), in Civil Engineering, and ENTPE (Vaulx-en-Velin, France), in Mechanical Engineering. My research focuses on numerical fluid-structure interaction, nonlinear structural dynamics and vibration control, with applications to overhead powerline structures. I hold a MEng in Mechanical Engineering from INSA Lyon and combine numerical modelling with experimental structural dynamics and wind tunnel testing.
+I am a Mechanical Design Engineer and a PhD Candidate at ENTPE (France) and the Université de Sherbrooke (Canada). My research focuses on developing innovative nonlinear passive dampers for mitigating wind-induced vibrations in overhead power transmission lines. My work covers structural dynamics, nonlinear vibrations, fluid-structure interactions, and vibration control, combining analytical and numerical approaches. Beyond my research, I am passionate about and have experience in mechanical design, multibody dynamics, and experimental rocket engineering.
 </p>
 
 <div class="home-actions">
