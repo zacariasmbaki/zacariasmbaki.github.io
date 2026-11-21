@@ -2,9 +2,9 @@
 title: "Vortex-Induced Vibration Attenuation on Tubular Monopole Telecommunications Towers Using a Nonlinear Energy Sink (NES)"
 excerpt: "Design of a nonlinear passive damper to control vortex-induced vibrations on tubular telecommunication towers, as an alternative to linear Tuned Mass Dampers."
 collection: portfolio
-category: academic
+category: research
 year: 2025
-image: tower.jpg
+image: telecom.jpg
 badges:
   - { label: "Slides", url: "/files/Slides_ESMC.pdf", color: green }
 objectives:
