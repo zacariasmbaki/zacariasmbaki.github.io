@@ -78,10 +78,10 @@ author_profile: true
         {% endfor %}
 
         {% if project.project_type %}
-          <span class="pf-badge pf-green pf-static">{{ project.project_type }}</span>
+          <span class="pf-badge pf-blue pf-static">{{ project.project_type }}</span>
         {% endif %}
         {% if project.role %}
-          <span class="pf-badge pf-green pf-static">Role: {{ project.role | join: ", " }}</span>
+          <span class="pf-badge pf-grey pf-static">Role: {{ project.role | join: ", " }}</span>
         {% endif %}
       </div>
     </article>
