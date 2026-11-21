@@ -13,8 +13,8 @@ objectives:
   - Investigate experimentally and numerically the effects of turbulent flow on the structural vibrations of an experimental rocket
   - Ensure the integrity of the electronic components inside the rocket
 role:
-  - Design and sizing of the rocket
-  - Setup of the instrumentation for vibration measurements
-  - Support in preparing the wind tunnel tests
+  - Rocket Design
+  - Vibration measurements
+  - Wind tunnel tests
 report: /files/SIFS.pdf
 ---
