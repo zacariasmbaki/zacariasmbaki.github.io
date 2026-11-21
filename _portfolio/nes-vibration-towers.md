@@ -13,6 +13,6 @@ objectives:
   - Design a nonlinear passive damper to control vortex-induced vibrations on tubular telecommunication towers
   - Provide an alternative to commonly used linear dampers (Tuned Mass Dampers)
 role:
-  - Principal researcher on the project
+  - Researcher
 report: /files/Slides_ESMC.pdf
 ---
