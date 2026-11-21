@@ -2,7 +2,7 @@
 title: "Mechanical Study and Integration of the IONIQ 5 Disconnect System on the INNOSHIFT Test Bench"
 excerpt: "Integration of a mechanical actuator module (IONIQ 5 Disconnect) on a test bench developed at TU Darmstadt."
 collection: portfolio
-layout: project
+layout: portofolio
 project_type: "Industrial / Research Project"
 category: industry
 year: 2023
