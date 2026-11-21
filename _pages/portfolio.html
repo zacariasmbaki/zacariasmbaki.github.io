@@ -7,8 +7,84 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+  .pf-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em 1.5em;
+    align-items: start;
+  }
+  @media (max-width: 700px) { .pf-grid { grid-template-columns: 1fr; } }
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+  .pf-title { margin: 0 0 .3em; font-size: 1.1em; }
+  .pf-title a { color: #1b9ac4; text-decoration: none; }
+  .pf-title a:hover { text-decoration: underline; }
+  .pf-excerpt { margin: 0 0 .6em; font-size: .85em; line-height: 1.4; }
 
+  .pf-card img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border: 1px solid #aaa;
+    display: block;
+  }
+
+  .pf-badges { margin-top: .6em; }
+  .pf-badge {
+    display: inline-block;
+    padding: .2em .7em;
+    margin: 0 .3em .3em 0;
+    border-radius: 4px;
+    font-size: .75em;
+    font-weight: 700;
+    color: #fff !important;
+    text-decoration: none;
+  }
+  .pf-green { background: #3fb23f; }
+  .pf-grey  { background: #8a8a8a; }
+  .pf-blue  { background: #3b9ad9; }
+</style>
+
+<div class="pf-grid">
+  {% assign projects = site.portfolio | sort: "date" | reverse %}
+  {% for project in projects %}
+
+    {% assign img = project.image | default: project.header.teaser | default: project.header.image %}
+    {% if img %}
+      {% if img contains '/' %}
+        {% assign img_src = img | relative_url %}
+      {% else %}
+        {% capture img_path %}/images/{{ img }}{% endcapture %}
+        {% assign img_src = img_path | relative_url %}
+      {% endif %}
+    {% endif %}
+
+    <article class="pf-card">
+      <h3 class="pf-title">
+        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+      </h3>
+
+      <p class="pf-excerpt">{{ project.excerpt | strip_html | strip }}</p>
+
+      {% if img_src %}
+        <a href="{{ project.url | relative_url }}">
+          <img src="{{ img_src }}" alt="{{ project.title }}" loading="lazy">
+        </a>
+      {% endif %}
+
+      {% if project.badges %}
+        <div class="pf-badges">
+          {% for b in project.badges %}
+            {% if b.url contains '://' %}
+              {% assign href = b.url %}
+            {% else %}
+              {% assign href = b.url | relative_url %}
+            {% endif %}
+            <a class="pf-badge pf-{{ b.color | default: 'green' }}" href="{{ href }}" target="_blank" rel="noopener">{{ b.label }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </article>
+
+  {% endfor %}
+</div>
