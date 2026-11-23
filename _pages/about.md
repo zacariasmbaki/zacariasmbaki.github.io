@@ -30,7 +30,7 @@ redirect_from:
 </style>
 
 <p class="about-intro">
-I am a Mechanical Design Engineer and a PhD Candidate at ENTPE (France) and the Université de Sherbrooke (Canada). My research focuses on developing innovative nonlinear passive dampers for mitigating wind-induced vibrations in overhead power transmission lines. My work covers structural dynamics, nonlinear vibrations, fluid-structure interactions, and vibration control, combining analytical and numerical approaches. Beyond my research, I am passionate about and have experience in mechanical design, multibody dynamics, and experimental rocket engineering.
+I am a Mechanical Design Engineer and a PhD candidate in a dual-degree program at ENTPE (France) and the Université de Sherbrooke (Canada). My research focuses on the development of innovative nonlinear passive dampers for mitigating wind-induced vibrations in overhead power transmission lines. My work lies at the intersection of structural dynamics, nonlinear vibrations, fluid-structure interactions, overhead transmission line design, and vibration control, combining analytical and numerical approaches. Beyond my research, I have a strong interest in and practical experience with mechanical design, multibody dynamics, and experimental rocketry.
 </p>
 
 <div class="home-actions">
@@ -47,7 +47,7 @@ I am a Mechanical Design Engineer and a PhD Candidate at ENTPE (France) and the 
         <h3 class="resume-item__org">Université de Sherbrooke, Canada</h3>
         <div class="resume-item__date">2024 – Present</div>
       </div>
-      <p class="resume-item__role">Joint PhD in Civil Engineering — Numerical Fluid-Structure Interaction and Overhead Powerline Structures</p>
+      <p class="resume-item__role">Dual-degree PhD program in Civil Engineering — Numerical Fluid-Structure Interaction and Overhead Powerline Structures</p>
     </article>
     <article class="resume-item">
       <div class="resume-item__header">
@@ -55,7 +55,7 @@ I am a Mechanical Design Engineer and a PhD Candidate at ENTPE (France) and the 
         <h3 class="resume-item__org">ENTPE, France</h3>
         <div class="resume-item__date">2024 – Present</div>
       </div>
-      <p class="resume-item__role">Joint PhD in Mechanical Engineering — Nonlinear Structural Dynamics and Vibration Control</p>
+      <p class="resume-item__role">Dual-degree PhD program in Mechanical Engineering — Nonlinear Structural Dynamics and Vibration Control</p>
     </article>
     <article class="resume-item">
       <div class="resume-item__header">
